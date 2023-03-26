@@ -368,6 +368,10 @@ public class Score : MonoBehaviour
 
         c.Text = randMath[randlist2].ToString();
 
+        b.GetComponent<CircleCollider2D>().isTrigger = true;
+        c.GetComponent<CircleCollider2D>().isTrigger = true;
+        a.GetComponent<CircleCollider2D>().isTrigger = false;
+
     }
 
     public void Save()

@@ -10,7 +10,6 @@ public class GameOver : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("fhfik");
-        
         health = health - 1;
         if (health == 3)
             Destroy(healthQ[0]);
